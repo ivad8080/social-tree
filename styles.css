@@ -24,15 +24,14 @@ body {
   background-color: var(--bg);
   color: #E8E6E3;
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
   text-align: center;
 }
 
 main {
   display: flex;
   align-items: center;
-  min-height: 100vh;
-  margin: 0 auto;
+  min-height: calc(100vh - 80px);
+  margin: 40px auto;
 }
 
 section {
