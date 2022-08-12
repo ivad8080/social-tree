@@ -88,6 +88,12 @@ section > .links > a {
   transition: transform .25s ease-out;
 }
 
+@media (max-width: 390px) {
+  section > .links > a {
+    width: 330px;
+  }
+}
+
 section > .links > a:hover {
   transform: scale(1.1);
 }
